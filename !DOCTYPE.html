@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Sam - Inglês e Geografia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0044cc;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #0044cc;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .section-title {
+            color: #0044cc;
+            border-bottom: 2px solid #0044cc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .video-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .video-item {
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            width: calc(33% - 40px);
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 768px) {
+            .video-item {
+                width: calc(50% - 40px);
+            }
+        }
+        @media (max-width: 480px) {
+            .video-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Teacher Sam</h1>
+        <p>Inglês e Geografia para o Ensino Médio</p>
+    </header>
+
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#about">Sobre Mim</a>
+        <a href="#videos">Vídeos Didáticos</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h2 class="section-title">Bem-vindo ao Meu Site!</h2>
+        <p>Aqui você encontrará recursos e vídeos para ajudá-lo a dominar as disciplinas de Inglês e Geografia do 6º ao 3º ano do ensino médio. Explore as seções abaixo para saber mais sobre meu trabalho e minha jornada acadêmica.</p>
+    </div>
+
+    <div class="container" id="about">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p>Sou Teacher Sam, professor de Inglês e Geografia com [anos de experiência]. Minha paixão pelo ensino me levou a criar este site, onde compartilho recursos didáticos e minha experiência na educação. Minha jornada acadêmica começou em [ano], quando iniciei meus estudos em [área de estudo]. Desde então, venho me dedicando a ajudar alunos a alcançarem seu potencial máximo.</p>
+    </div>
+
+    <div class="container" id="videos">
+        <h2 class="section-title">Vídeos Didáticos</h2>
+        <div class="video-list">
+            <div class="video-item">
+                <h3>Inglês - 6º Ano</h3>
+                <p>Descrição breve do vídeo.</p>
+                <a href="link-do-video">Assista aqui</a>
+            </div>
+            <div class="video-item">
+                <h3>Geografia - 7º Ano</h3>
+                <p>Descrição breve do vídeo.</p>
+                <a href="link-do-video">Assista aqui</a>
+            </div>
+            <!-- Adicione mais vídeos conforme necessário -->
+        </div>
+    </div>
+
+    <div class="container" id="blog">
+        <h2 class="section-title">Blog</h2>
+        <p>Em breve, artigos e reflexões sobre o ensino de Inglês e Geografia!</p>
+    </div>
+
+    <div class="container" id="contact">
+        <h2 class="section-title">Contato</h2>
+        <p>Entre em contato comigo através do formulário abaixo:</p>
+        <form>
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Teacher Sam. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
